@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial-4.2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+ $(function () {
+  $('.checkbox').click(function () {
+    $('#off').prop('disabled', !$('.checkbox:checked').length);
+    
+  });
+  
+});
+
+
+
+
+
+  </script>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .check{
+     display: flexbox;
+       color: black;
+      font-weight: bold;
+
+      background-color: rgb(183, 193, 247);
+      
+    }
+    .check ,input{
+     
+      padding-left: 10px;
+    }
+    button{
+      padding-left: 20px;
+      width: 100px;
+    }
+    h4{
+      text-align: center;
+      background-attachment: fixed;
+      background-color: rgb(99, 103, 160);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h4>2.There are two elements in the page: checkbox and button. By default the button is disabled. When the checkbox is marked, the button is enabled.</h4>
+  <div class="check">
+    
+    <input type="checkbox"  value="ghghghg" class="checkbox">Samsung
+    <br><br>
+
+
+    <input type="checkbox"  value="$client['id']" class="checkbox">Iphone
+    <br><br>
+ 
+    <input type="checkbox"  value="$client['id']" class="checkbox">Nokia
+    <br><br>
+ 
+
+ <button type="button" id="off" class="btn btn-primary s" data-toggle="modal" data-target="#offer" disabled>click me</button>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <title>tutorial4.6</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+  $("#div1").click(function(){
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#div2").dblclick(function(){
+    $("#img1").hide();
+  });
+});
+ 
+ $(document).ready(function(){
+  $("#img2").mouseenter(function(){
+   $(this).hide();
+
+  });
+ });
+ $(document).ready(function(){
+  $("#div").mouseleave(function(){
+    $("#text").css("color", "blue");
+  });
+});
+
+
+$(document).ready(function(){
+  $("#div4").mousedown(function(){
+    alert("You entered div4!");
+  });
+});
+
+  </script>
+  <style>
+    h1
+    {
+      color: white;
+      background-color: black;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>6.Demonstrate at least 5 mouse events with your creative ideas in tutorial 1 web pages.</h1>
+  <h3>6. Create a div tag with id div1 and add a click event to it. When the div is clicked, hide the div.</h3>
+  <div id="div1" class="w3-container w3-teal">
+    <h2>Click on me</h2>
+  </div>
+  <br>
+  <h3>7. Create a div tag with id div2 and add a double click event to it. When the div is double clicked, hide the image with id img1.</h3>
+  <div id="div2" class="w3-container w3-teal">
+    <h2>Double click on me</h2>
+    <img id="img1" src="https://www.w3schools.com/w3css/img_lights.jpg" alt="Lights" style="width:100%">
+  </div>
+  <br>
+  <h3>8. Create an image tag with id img2 and add a mouse enter event to it. When the mouse enters the image, hide the image.</h3>
+  <img id="img2" src="https://www.w3schools.com/w3css/img_lights.jpg" alt="Lights" style="width:100%">
+  <br>
+  <h3>9. Create a div tag with id div3 and add a mouse leave event to it. When the mouse leaves the div, change the color of the text to blue.</h3>
+  <div id="div" class="w3-container w3-teal">
+    <h2>Mouse leave me</h2>
+    <p id="text">This is a paragraph.</p>
+  </div>
+  <br>
+  <h3>10. Create a div tag with id div4 and add a mouse down event to it. When the mouse is pressed down on the div, display an alert box with the message "You entered div4!"</h3>
+  <div id="div4" class="w3-container w3-teal">
+    <h2>Mouse down me</h2>
+  </div>
+  <br>
+  <div style="text-align:center">
+</div>   
+    
+</body>
+</html>

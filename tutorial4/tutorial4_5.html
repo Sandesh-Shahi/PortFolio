@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial4.5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("p").clone().appendTo("div");
+          });
+        });
+        </script>
+        <style>
+          *{
+          margin: 0;
+          padding: 0;
+        }
+        .copy{
+          background-color: rgb(99, 103, 160);
+          border-top:  1px solid black;
+          margin: 0;
+          color: white;
+
+
+       }
+        button{
+          background-color: rgb(0, 0, 0);
+          color: white;
+          border-radius: 20px;
+          width: 150px;
+          border: none;
+          height: 30px;
+        }
+        h3{
+         
+         padding: 1%;
+          color: white;
+          background-color: black;
+        }
+
+        </style>
+        </head>
+        <body>
+        <h3>5.By clicking on the button create a copy of p tag into div tag.</h3>
+        <div class="copy">
+          <p>Copy This paragraph</p>
+          <br>            
+          <button>click here to copy p</button>
+  
+          
+        </div>
+    
+       
+        <div style="text-align:center"></div>
+        
+        </body>
+        </html>
+        

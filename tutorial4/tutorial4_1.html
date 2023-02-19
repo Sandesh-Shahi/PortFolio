@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorals</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("h2").css("background-color", "yellow", "color", "black");
+      });
+    });
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").css("background-color", "yellow", "color", "black");
+      });
+    });
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("textarea").css("background-color", "yellow", "color", "black");
+      });
+    });
+    </script>
+    <style>
+    .jquery{
+      background-color: rgb(117, 140, 171);
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+      margin: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  .jquery,h1,p{
+    color: black;
+  }
+  .jquery,textarea{
+    color: black;
+
+  }
+    </style>
+    </head>
+    <body>
+    
+   <div class="jquery">
+    <h3>1.Set background color yellow for h1,p,p and textarea elements subsequently.</h3>
+    <h2 style="background-color:#00ff00">This is a heading</h2>
+    
+    <p style="background-color:#ff0000">This is a paragraph1.</p>
+    <p style="background-color:#00ff00">This is a paragraph2.</p>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+    <button>Set background-color </button>
+   </div>
+
+    
+    
+    
+    </body>
+    </html>
+    
