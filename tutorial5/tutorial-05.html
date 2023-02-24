@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		jQuery UI Tabs create Event
+	</title>
+	<link rel="stylesheet" href= "//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.12.4.js">
+	</script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js">
+	</script>
+	<style>
+		#gfg {
+			width: 100%;
+			text-align: justify;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function () {
+			// $("#gfg").on('tabscreate', function () {
+			// 	alert('Tabs create Event Triggered!');
+			// });
+
+			$("#gfg").tabs();
+		});
+	</script>
+    <style>
+        h1{
+            text-align: center;
+            width: 300px;
+            color: #000000;
+            background-color: rgb(255, 255, 255);
+        }
+        #gfg ul li a{
+            list-style: none;
+            border: none;
+            background-color: #476ff2;
+            color: #ffffff;
+            font-weight: bold;
+          border-radius: 10px;
+        }
+        #gfg ul li a:hover{
+            background-color: #ffffff;
+            color: #476ff2;
+            border: none;
+        }
+        #gfg ul li a:focus{
+            background-color: #ffffff;
+            color: #476ff2;
+            border: none;
+        }
+        #gfg ul li{
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            border-radius: 2%;
+            line-height: 30px;
+            font-weight: lighter;
+        }
+        #gfg h2{
+            text-align: center;
+            color: #ffffff;
+            border: none;
+            border-radius: 30px;
+            width: 200px;
+
+            background-color: #010102;
+        }
+        #gfg{
+            width: 100%;
+            text-align: justify;
+            border: none;
+            border-radius: 10px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+	 
+
+ <h1>Sandesh Shahi</h1>
+
+	<div id="gfg">
+		<ul>
+			<li><a href="#gfg1">MERN Technology</a></li>
+			<li><a href="#gfg2">Data Science</a></li>
+			<li><a href="#gfg3">Server Side Scripting Language</a></li>
+		 
+		</ul>
+
+		<div id="gfg1">
+			 <h2>Subject</h2>
+             <ul>
+                <li>MongoDb-document database</li>
+                <li>Express(.js)-Node.js web framwork</li>
+                <li>React(.js)-a client-side Javascript framework</li>
+                <li>Node(.js)-the premier Javascript web server</li>
+             </ul>
+		</div>
+
+		<div id="gfg2">
+			<h2>Subject</h2>
+			<ul>
+                <li>Python</li>
+                <li>SQL (Structured Query Language)</li>
+                <li>R</li>
+                <li>Julia </li>
+             </ul>
+		</div>
+
+		<div id="gfg3">
+			<h2>Subject</h2>
+			<ul>
+                <li>PHP</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>Ruby </li>
+             </ul>
+		</div>
+
+		 
+	</div>
+</body>
+
+</html>
