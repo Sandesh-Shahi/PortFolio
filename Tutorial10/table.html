@@ -4,8 +4,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
+<style>
+    table, th, td {
+      border: 1px solid black;
+      height: 50px;
+      
+        margin-top: 1px ;
+      flex-direction: column;
+      width: fit-content;
+      flex-flow: wrap;
+      border-collapse: collapse;
 
-<div class="w3-container w3-teal">
+    }
+    .diva{
+        background-color: #4f3df1;
+        text-align: center;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+  table td:nth-child(1) {
+    width: 50px;
+    color: blue;
+    
+    text-align: center;
+  }
+  table td:nth-child(3) {
+    width: 100px;
+    text-align: center;
+    color: green;
+  }
+  tr:nth-child(even) {
+    background-color: #596fff;
+    color: white;
+    }
+  
+</style>
+
+
+
+<div class="w3-container diva">
   <h1>Tutorial 10  Database Connection</h1>
 </div>
 
@@ -19,13 +59,15 @@
     <tr>
       <td>1</td>
       <td>Create a database to store the login data and registration data forms that were used in tutorial - 6.</td>
-      <td><a href="file1.php">solution 1</a></td>
+      <td><a href="file1.php">View</a></td>
     </tr>
     <tr>
       <td>2</td>
       <td>Perform CRUD operations on databases.</td>
-      <td><a href="file2.php">solution 2</a></td>
+      <td><a href="file2.php">View</a></td>
     </tr>
 
   </table>
+
 </body>
+</html>
